@@ -33,7 +33,7 @@ Linked data is structured data that can be looked up via some methods, HTTP, RDF
 ## ISCN Architecture
 The complete ISCN registration is consist of a kernel [ISCN](schema/iscn/v1.md) core metadata to record the unique global identifier and maintain the stakeholders, the intellectual property rights and the content metadata by [Stakeholder](schema/stakeholder/v1.md), [Rights](schema/rights/v1.md) and [Content](schema/content/v1.md) corresponsibly. The architecture of an ISCN is shown below:
 
-![ISCN architecture](https://gateway.pinata.cloud/ipfs/QmbZGeySgjWPRA9dmFqnzUQe1xBU79yZ9pkHSCoqR9ou9j)
+![ISCN architecture](https://gateway.pinata.cloud/ipfs/QmT3gD8KvowzpaU2n4ppc7EHnJ7rgqkbRCqgKmdvYHSTiv)
 
 ## ISCN content registry
 A registry is a service provider for the ISCN registration, and a registry should provide service to register a digital content with metadata that follows the ISCN specification and to query. If any entities want to become a registry for ISCN, they should reserve a code for their registry in [here](https://github.com/likecoin/iscn-registry).
