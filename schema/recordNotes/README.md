@@ -31,5 +31,6 @@ The [Record Notes](#) is a summary on the current record version, similar to Git
 
 ## Description
 
-| Property | Occurs | Expected Type | Description |
-| -------- | ------ | ------------- | ----------- |
+| Property | Expected Type | Description                  |
+| -------- | ------------- | ---------------------------- |
+| -        | String        | The note for the ISCN record |

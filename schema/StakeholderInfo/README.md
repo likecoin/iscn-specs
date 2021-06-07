@@ -34,3 +34,8 @@ The [Stakeholder](#) is the information about the stakeholder, including the [En
 
 Property|Occurs|Expected Type|Description
 --|--|--|--
+| entity | \[[entity](../entity/README.md)\] | An [entity](../entity/README.md) object. |
+
+| rewardProportion | \[[rewardProportion](../rewardProportion/README.md)\] | An [rewardProportion](../rewardProportion/README.md) object. |
+
+| contributionType | \[[contributionType](../contributionType/README.md)\] | An [contributionType](../contributionType/README.md) object. |

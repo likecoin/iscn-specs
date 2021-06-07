@@ -46,7 +46,6 @@ The [Stakeholders](#) holds a list of [Stakeholder](../stakeholder/v1.md) and de
 
 ## Description
 
-| Property     | Occurs | Expected Type                           | Description                                                                                                      |
-| ------------ | ------ | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| context      | 1      | URL                                     | The location of this schema:<br>[https://iscn.io/schema/stakeholders-v1](https://iscn.io/schema/stakeholders-v1) |
-| stakeholders | 1      | \[[Stakeholder](../stakeholder/v1.md)\] | An array of [Stakeholder](../stakeholder/v1.md).                                                                 |
+| Property     | Expected Type                                       | Description                                                  |
+| ------------ | --------------------------------------------------- | ------------------------------------------------------------ |
+| stakeholders | \[[StakeholderInfo](../StakeholderInfo/README.md)\] | An array of [StakeholderInfo](../StakeholderInfo/README.md). |

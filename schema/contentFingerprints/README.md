@@ -1,6 +1,6 @@
-# Entity
+# Content FingerPrints
 
-The [Entity](#) describes the necessary information of an entity, and all specific entity should inherit from [Entity](#) to extend.
+The [Content FingerPrints](#) is the fingerprints of the content, e.g. cryptographic hashes of content files. To be complete, there could be more than one fingerprint, so this field should be presented as a list of fingerprints. For interoperability, the fingerprints should be encoded in IRI (URI) format, e.g. hash URI (https://github.com/hash-uri/hash-uri)
 
 ## Schema
 
@@ -17,6 +17,7 @@ The [Entity](#) describes the necessary information of an entity, and all specif
   ]
 }
 ```
+
 ## Sample
 
 ```json
@@ -28,5 +29,6 @@ The [Entity](#) describes the necessary information of an entity, and all specif
 
 ## Description
 
-| Property    | Occurs | Expected Type | Description                                                                                                                   |
-| ----------- | ------ | ------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Property | Expected Type | Description                                                                          |
+| -------- | ------------- | ------------------------------------------------------------------------------------ |
+| -        | String[]      | List of URI of the content, e.g. hash://, ipfs://, https://, or other applicable URI |

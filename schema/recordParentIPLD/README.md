@@ -28,5 +28,6 @@ The [Record Parent IPLD](#) is the IPLD hash of the previous version of this rec
 
 ## Description
 
-| Property    | Occurs | Expected Type | Description                                                                                                                   |
-| ----------- | ------ | ------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Property | Expected Type | Description                 |
+| -------- | ------------- | --------------------------- |
+| /        | String        | IPLD of parent ISCN record. |

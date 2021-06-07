@@ -19,13 +19,13 @@ The [Contribution Type](#) describes the type of the contribution for a stakehol
 ```
 
 ## Sample
+
 ```json
 "http://schema.org/author"
 ```
 
-
 ## Description
 
-| Property | Occurs | Expected Type | Description |
-| -------- | ------ | ------------- | ----------- |
-|  |
+| Property | Expected Type | Description                                                                                                 |
+| -------- | ------------- | ----------------------------------------------------------------------------------------------------------- |
+| -        | String        | The type of digital content, e.g [Author](http://schema.org/author), [Citation](http://schema.org/citation) |

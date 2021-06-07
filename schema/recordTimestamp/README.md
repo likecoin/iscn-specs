@@ -31,5 +31,6 @@ The [TimePeriod](#) is timestamp of the current version of the ISCN record, reco
 
 ## Description
 
-| Property | Occurs | Expected Type | Description |
-| -------- | ------ | ------------- | ----------- |
+| Property | Expected Type | Description                                                                                                                                  |
+| -------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| -        | String        | The timestamp of the creation or the modification of the ISCN record. It should be a human-readable DateTime and recommends to use ISO 8601. |

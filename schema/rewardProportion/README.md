@@ -31,5 +31,6 @@ The [Reward Proportion](#) is how much should the entity or footprinted content 
 
 ## Description
 
-| Property | Occurs | Expected Type | Description |
-| -------- | ------ | ------------- | ----------- |
+| Property | Expected Type | Description                                   |
+| -------- | ------------- | --------------------------------------------- |
+| -        | Number        | Weighting of proportion expressed in a number |
