@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "@vocab": "http://iscn.io/",
+        "recordParentIPLD": {
+            "@container": "@index"
+        },
+        "stakeholders": {
+            "@context": {
+                "@vocab": "http://schema.org/",
+                "entity": "http://iscn.io/entity",
+                "rewardProportion": "http://iscn.io/rewardProportion",
+                "contributionType": "http://iscn.io/contributionType",
+                "footprint": "http://iscn.io/footprint"
+            }
+        },
+        "contentMetadata": {
+            "@context": null
+        }
+    },
+    "@type": "Record",
+    "@id": "iscn://likecoin-chain/btC7CJvMm4WLj9Tau9LAPTfGK7sfymTJW7ORcFdruCU/2",
+    "recordTimestamp": "2021-03-23T12:00:00+08:00",
+    "recordVersion": 2,
+    "recordNotes": "Add IPFS fingerprint",
+    "recordParentIPLD": {
+        "/": "bahuaierav3bfvm4ytx7gvn4yqeu4piiocuvtvdpyyb5f6moxniwemae4tjyq"
+    },
+    "contentFingerprints": [
+        "hash://sha256/9564b85669d5e96ac969dd0161b8475bbced9e5999c6ec598da718a3045d6f2e",
+        "ipfs://QmNrgEMcUygbKzZeZgYFosdd27VE9KnWbyUD73bKZJ3bGi"
+    ],
+    "stakeholders": [
+        {
+            "entity": {
+                "@id": "http://github.com/nnkken",
+                "name": "Chung Wu"
+            },
+            "rewardProportion": 95,
+            "contributionType": "http://schema.org/author"
+        },
+        {
+            "rewardProportion": 5,
+            "contributionType": "http://schema.org/citation",
+            "footprint": "https://en.wikipedia.org/wiki/Fibonacci_number",
+            "description": "The blog post referred the matrix form of computing Fibonacci numbers."
+        }
+    ],
+    "contentMetadata": {
+        "@context": "http://schema.org/",
+        "@type": "CreativeWorks",
+        "title": "使用矩陣計算遞歸關係式",
+        "description": "An article on computing recursive function with matrix multiplication.",
+        "datePublished": "2019-04-19",
+        "version": 1,
+        "url": "https://nnkken.github.io/post/recursive-relation/",
+        "author": "https://github.com/nnkken",
+        "usageInfo": "https://creativecommons.org/licenses/by/4.0",
+        "keywords": "matrix,recursion"
+    }
+}
