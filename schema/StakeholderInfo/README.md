@@ -1,6 +1,5 @@
 # Stakeholder
 
-
 The [Stakeholder](#) is the information about the stakeholder, including the [Entity](../entity/README.md) of the stakeholder and profit sharing ratio hint. Also, if the current digital work is a derivative work, then the source of underlying work is also registered as a creation footprint.
 
 ## Schema
@@ -21,21 +20,19 @@ The [Stakeholder](#) is the information about the stakeholder, including the [En
 
 ```json
 {
-    "entity": {
-        "@id": "http://github.com/nnkken",
-        "name": "Chung Wu"
-    },
-    "rewardProportion": 95,
-    "contributionType": "http://schema.org/author"
+  "entity": {
+    "@id": "http://github.com/nnkken",
+    "name": "Chung Wu"
+  },
+  "rewardProportion": 95,
+  "contributionType": "http://schema.org/author"
 }
 ```
 
 ## Description
 
-Property|Occurs|Expected Type|Description
---|--|--|--
-| entity | \[[entity](../entity/README.md)\] | An [entity](../entity/README.md) object. |
-
+| Property         | Expected Type                                         | Description                                                  |
+| ---------------- | ----------------------------------------------------- | ------------------------------------------------------------ |
+| entity           | \[[entity](../entity/README.md)\]                     | An [entity](../entity/README.md) object.                     |
 | rewardProportion | \[[rewardProportion](../rewardProportion/README.md)\] | An [rewardProportion](../rewardProportion/README.md) object. |
-
 | contributionType | \[[contributionType](../contributionType/README.md)\] | An [contributionType](../contributionType/README.md) object. |
