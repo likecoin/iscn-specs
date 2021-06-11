@@ -1,6 +1,6 @@
 # ISCN Record
 
-The [ISCN](#) is the core metadata that acts as a kernel of ISCN, and it connects the content itself, the stakeholders and the intellectual property rights with a unique global identifier.
+The [ISCN Record](#) is the core metadata that acts as a kernel of ISCN, and it connects the content itself, the stakeholders and the intellectual property rights with a unique global identifier.
 
 ## Schema
 
@@ -15,8 +15,6 @@ The [ISCN](#) is the core metadata that acts as a kernel of ISCN, and it connect
   }
 }
 ```
-
-                                                                                                                                                                                                            |
 
 ## Sample
 

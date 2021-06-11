@@ -26,7 +26,7 @@ The ISCN data model is composed of [linked data](#linked-data) from different da
 - [recordVersion](schema/recordVersion/README.md): Version of the ISCN record, independent of the content version.
 - [StakeholderInfo](schema/StakeholderInfo/README.md): Information of a entity who/which contributed to the content, and its weighting.
 - [contributionType](schema/contributionType/README.md): Type of the contribution of a StakeholderInfo
-- [iscn](schema/iscn/README.md): The core metadata that acts as a kernel of ISCN, and it connects the content itself, the stakeholders, the fingerprints and other relevant metadata with a unique global identifier.
+- [ISCN Record](schema/record/README.md): The core metadata that acts as a kernel of ISCN, and it connects the content itself, the stakeholders, the fingerprints and other relevant metadata with a unique global identifier.
 - [recordParentIPLD](schema/recordParentIPLD/README.md): The IPLD hash of the previous version of this record.
 - [rewardProportion](schema/rewardProportion/README.md): The suggested reward propotion of a stakeholder.
 - [contentFingerprints](schema/contentFingerprints/README.md): Fingerprints of the content, e.g. cryptographic hashe, URI, etc.
