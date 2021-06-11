@@ -37,15 +37,15 @@ The [Content Metadata](#) contains the necessary metadata of digital content, in
 
 ## Description
 
-| Property      | Expected Type       | Description                                                                                                                                    |
-| ------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| context       | URL                 | The location of this schema: [http://schema.org/](http://schema.org/)                                                                          |
-| type          | String              | The type of digital content. e.g. [CreativeWorks] (https://schema.org/CreativeWork) and its subtypes(https://schema.org/CreativeWork#subtypes) |
-| title         | String              | A title or a name of the digital content, and it recommends to keep in short.                                                                  |
-| description   | [<u>Content</u>](#) | A brief description to introduce the digital content.                                                                                          |
-| datePublished | String              | The timestamp of the creation or the modification of the ISCN record. It should be a human-readable DateTime and recommends to use ISO 8601.   |
-| version       | Number              | Self defined version number                                                                                                                    |
-| url           | String \| Object    | The url of the creative work if exists                                                                                                         |
-| author        | String \| Object    | Author of the creative work                                                                                                                    |
-| usageInfo     | String              | License or copyright information of the content                                                                                                |
-| keywords      | String              | A comma seperated list of keyword related to the content                                                                                       |
+| Property      | Expected Type    | Description                                                                                                                                     |
+| ------------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| context       | URL              | The location of this schema: [http://schema.org/](http://schema.org/)                                                                           |
+| type          | String           | The type of digital content. e.g. [CreativeWorks](https://schema.org/CreativeWork) and its [subtypes](https://schema.org/CreativeWork#subtypes) |
+| title         | String           | A title or a name of the digital content, and it recommends to keep in short.                                                                   |
+| description   | String           | A brief description to introduce the digital content.                                                                                           |
+| datePublished | String           | The timestamp of the creation or the modification of the ISCN record. It should be a human-readable DateTime and recommends to use ISO 8601.    |
+| version       | Number           | Self defined version number                                                                                                                     |
+| url           | String \| Object | The url of the creative work if exists                                                                                                          |
+| author        | String \| Object | Author of the creative work                                                                                                                     |
+| usageInfo     | String           | License or copyright information of the content                                                                                                 |
+| keywords      | String           | A comma seperated list of keyword related to the content                                                                                        |
