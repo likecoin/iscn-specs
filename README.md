@@ -20,19 +20,19 @@ The ISCN data model is composed of [linked data](#linked-data) from different da
 
 ![ISCN data model](https://gateway.pinata.cloud/ipfs/Qmacpqc7EWQBU9q8cctAj1hdoVXdyMH7Geq7FcpZ8XA5M8)
 
-- [contentMetadata](schema/contentMetadata/README.md): Basic content metadata.
-- [footprint](schema/footprint/README.md): Referring to other contents (e.g. citation or derivative works)
-- [recordNotes](schema/recordNotes/README.md): Brief description of a content.
-- [recordVersion](schema/recordVersion/README.md): Version of the ISCN record, independent of the content version.
-- [StakeholderInfo](schema/StakeholderInfo/README.md): Information of a entity who/which contributed to the content, and its weighting.
-- [contributionType](schema/contributionType/README.md): Type of the contribution of a StakeholderInfo
+- [Content Metadata](schema/contentMetadata/README.md): Basic content metadata.
+- [Footprint](schema/footprint/README.md): Referring to other contents (e.g. citation or derivative works)
+- [Record Notes](schema/recordNotes/README.md): Brief description of a content.
+- [Record Version](schema/recordVersion/README.md): Version of the ISCN record, independent of the content version.
+- [Stakeholder Info](schema/StakeholderInfo/README.md): Information of a entity who/which contributed to the content, and its weighting.
+- [Contribution Type](schema/contributionType/README.md): Type of the contribution of a StakeholderInfo
 - [ISCN Record](schema/record/README.md): The core metadata that acts as a kernel of ISCN, and it connects the content itself, the stakeholders, the fingerprints and other relevant metadata with a unique global identifier.
-- [recordParentIPLD](schema/recordParentIPLD/README.md): The IPLD hash of the previous version of this record.
-- [rewardProportion](schema/rewardProportion/README.md): The suggested reward propotion of a stakeholder.
-- [contentFingerprints](schema/contentFingerprints/README.md): Fingerprints of the content, e.g. cryptographic hashe, URI, etc.
-- [entity](schema/entity/README.md): Entity who should be cited and / or rewarded for the contribution on the content.
-- [recordTimestamp](schema/recordTimestamp/README.md): The timestamp of the current version of the ISCN record.
-- [stakeholders](schema/stakeholders/README.md): List of StakeholderInfo contributed to this content.
+- [Record Parent IPLD](schema/recordParentIPLD/README.md): The IPLD hash of the previous version of this record.
+- [Reward Proportion](schema/rewardProportion/README.md): The suggested reward propotion of a stakeholder.
+- [Content Fingerprints](schema/contentFingerprints/README.md): Fingerprints of the content, e.g. cryptographic hashe, URI, etc.
+- [Entity](schema/entity/README.md): Entity who should be cited and / or rewarded for the contribution on the content.
+- [Record Timestamp](schema/recordTimestamp/README.md): The timestamp of the current version of the ISCN record.
+- [Stakeholders](schema/stakeholders/README.md): List of StakeholderInfo contributed to this content.
 
 A full list of schema can be found at [schema](https://github.com/likecoin/iscn-specs/tree/master/schema), and ISCN record samples can be found in [here](https://github.com/likecoin/iscn-specs/tree/develop/sample).
 
