@@ -16,19 +16,25 @@ The target of ISCN is to build a general digital content registration schema, an
 
 ## ISCN Data Model
 
-The ISCN data model is composed of [linked data](#linked-data) from different data structures shown below:
+The ISCN data model is composed of [linked data](#linked-data) from different data structures shown below. ISCN data is [JSON-LD](https://json-ld.org/) compatible:
 
 ![ISCN data model](https://gateway.pinata.cloud/ipfs/Qmacpqc7EWQBU9q8cctAj1hdoVXdyMH7Geq7FcpZ8XA5M8)
 
-- [Meta](schema/meta/v1.md): The metadata on all of the ISCN data structures.
-- [Entity](schema/entity/v1.md): The necessary information of an entity and all specific entity should inherit from [Entity](schema/entity/v1.md) to extend.
-- [TimePeriod](schema/timeperiod/v1.md): The valid period of a life-cycle of an object.
-- [ISCN](schema/iscn/v1.md): The core metadata that acts as a kernel of ISCN, and it connects the content itself, the stakeholders and the intellectual property rights with a unique global identifier.
-- [Stakeholders](schema/stakeholders/v1.md): A list of [Stakeholder](schema/stakeholder/v1.md) and defines the ratio of profit sharing to each of the stakeholders.
-- [Stakeholder](schema/stakeholder/v1.md): The information about the stakeholder, including the [Entity](schema/entity/v1.md) of the stakeholder and profit sharing ratio hint. Also, if the current digital work is a derivative work, then the source of underlying work is also registered as a creation footprint.
-- [Rights](schema/rights/v1.md): A list of [Right](schema/right/v1.md) that describes the intellectual property rights.
-- [Right](schema/right/v1.md): The information of the intellectual property rights granted by law, and it records that who is the holder, where and when the right applies and the detail of the terms of the right.
-- [Content](schema/content/v1.md): The necessary metadata of digital content, including the fingerprint, the source location and the title & description of the digital content.
+- [contentMetadata](schema/contentMetadata/README.md): Basic content metadata.
+- [footprint](schema/footprint/README.md): Referring to other contents (e.g. citation or derivative works)
+- [recordNotes](schema/recordNotes/README.md): Brief description of a content.
+- [recordVersion](schema/recordVersion/README.md): Version of the ISCN record, independent of the content version.
+- [StakeholderInfo](schema/StakeholderInfo/README.md): Information of a entity who/which contributed to the content, and its weighting.
+- [contributionType](schema/contributionType/README.md): Type of the contribution of a StakeholderInfo
+- [iscn](schema/iscn/README.md): The core metadata that acts as a kernel of ISCN, and it connects the content itself, the stakeholders, the fingerprints and other relevant metadata with a unique global identifier.
+- [recordParentIPLD](schema/recordParentIPLD/README.md): The IPLD hash of the previous version of this record.
+- [rewardProportion](schema/rewardProportion/README.md): The suggested reward propotion of a stakeholder.
+- [contentFingerprints](schema/contentFingerprints/README.md): Fingerprints of the content, e.g. cryptographic hashe, URI, etc.
+- [entity](schema/entity/README.md): Entity who should be cited and / or rewarded for the contribution on the content.
+- [recordTimestamp](schema/recordTimestamp/README.md): The timestamp of the current version of the ISCN record.
+- [stakeholders](schema/stakeholders/README.md): List of StakeholderInfo contributed to this content.
+
+A full list of schema can be found at [schema](/schema), and ISCN record samples can be found in [here](/sample).
 
 ## Linked Data
 
@@ -36,13 +42,13 @@ Linked data is structured data that can be looked up via some methods, HTTP, RDF
 
 ## ISCN Architecture
 
-The complete ISCN registration is consist of a kernel [ISCN](schema/iscn/v1.md) core metadata to record the unique global identifier and maintain the stakeholders, the intellectual property rights and the content metadata by [Stakeholder](schema/stakeholder/v1.md), [Rights](schema/rights/v1.md) and [Content](schema/content/v1.md) corresponsibly. The architecture of an ISCN is shown below:
+The complete ISCN registration is consist of a kernel [ISCN](schema/iscn.md) record to record the unique global identifier and maintain the stakeholders, and the content metadata by [stakeholders](schema/stakeholders/README.md), [contentFingerprints](schema/contentFingerprints/README.md) and [contentMetadata](schema/contentMetadata/README.md) corresponsibly. Other metadata can be added flexiblely through [JSON-LD](https://json-ld.org/) and [schema.org](https://schema.org/) standard. The basic architecture of an ISCN is shown below:
 
 ![ISCN architecture](https://gateway.pinata.cloud/ipfs/QmT3gD8KvowzpaU2n4ppc7EHnJ7rgqkbRCqgKmdvYHSTiv)
 
 ## ISCN content registry
 
-A registry is a service provider for the ISCN registration, and a registry should provide service to register a digital content with metadata that follows the ISCN specification and to query. If any entities want to become a registry for ISCN, they should reserve a code for their registry in [here](https://github.com/likecoin/iscn-registry).
+A registry is a service provider for the ISCN registration, and a registry should provide service to register a digital content with metadata that follows the ISCN specification and to query. If any entities want to become a registry for ISCN, they should reserve a code for their registry in [here](https://github.com/likecoin/iscn-registry-index).
 
 ## ISCN Specification Guidelines
 
