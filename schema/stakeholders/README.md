@@ -1,6 +1,6 @@
 # Stakeholders
 
-The [Stakeholders](#) holds a list of [Stakeholder](../stakeholder/v1.md) and defines the ratio of profit sharing to each of the stakeholders.
+The [Stakeholders](#) holds a list of [Stakeholder](../stakeholder/README.md) and defines the ratio of profit sharing to each of the stakeholders.
 
 ## Schema
 

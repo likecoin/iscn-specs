@@ -1,7 +1,7 @@
 # Stakeholder
 
 
-The [Stakeholder](#) is the information about the stakeholder, including the [Entity](../entity/v1.md) of the stakeholder and profit sharing ratio hint. Also, if the current digital work is a derivative work, then the source of underlying work is also registered as a creation footprint.
+The [Stakeholder](#) is the information about the stakeholder, including the [Entity](../entity/README.md) of the stakeholder and profit sharing ratio hint. Also, if the current digital work is a derivative work, then the source of underlying work is also registered as a creation footprint.
 
 ## Schema
 
