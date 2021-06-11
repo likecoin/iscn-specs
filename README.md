@@ -34,7 +34,7 @@ The ISCN data model is composed of [linked data](#linked-data) from different da
 - [recordTimestamp](schema/recordTimestamp/README.md): The timestamp of the current version of the ISCN record.
 - [stakeholders](schema/stakeholders/README.md): List of StakeholderInfo contributed to this content.
 
-A full list of schema can be found at [schema](/schema), and ISCN record samples can be found in [here](/sample).
+A full list of schema can be found at [schema](https://github.com/likecoin/iscn-specs/tree/master/schema), and ISCN record samples can be found in [here](https://github.com/likecoin/iscn-specs/tree/develop/sample).
 
 ## Linked Data
 
