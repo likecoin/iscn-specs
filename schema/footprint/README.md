@@ -32,4 +32,4 @@ The [Footprint](#) describes contributions referring to other contents (e.g. cit
 
 | Property | Expected Type | Description               |
 | -------- | ------------- | ------------------------- |
-| context  | String/URI    | URI of the reference work |
+| -        | String/URI    | URI of the reference work |
