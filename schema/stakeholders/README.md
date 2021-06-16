@@ -48,4 +48,4 @@ The [Stakeholders](#) holds a list of [Stakeholder](../stakeholder/README.md) an
 
 | Property     | Expected Type                                       | Description                                                  |
 | ------------ | --------------------------------------------------- | ------------------------------------------------------------ |
-| stakeholders | \[[StakeholderInfo](../StakeholderInfo/README.md)\] | An array of [StakeholderInfo](../StakeholderInfo/README.md). |
+| stakeholders | [StakeholderInfo](../StakeholderInfo/README.md)[] | An array of [StakeholderInfo](../StakeholderInfo/README.md). |
