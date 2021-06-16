@@ -18,7 +18,7 @@ The target of ISCN is to build a general digital content registration schema, an
 
 The ISCN data model is composed of [linked data](#linked-data) from different data structures shown below. ISCN data is [JSON-LD](https://json-ld.org/) compatible:
 
-![ISCN data model](https://gateway.pinata.cloud/ipfs/Qmacpqc7EWQBU9q8cctAj1hdoVXdyMH7Geq7FcpZ8XA5M8)
+![ISCN data model](./images/iscn_data_model.png)
 
 - [Content Metadata](schema/contentMetadata/README.md): Basic content metadata.
 - [Footprint](schema/footprint/README.md): Referring to other contents (e.g. citation or derivative works)
@@ -34,7 +34,7 @@ The ISCN data model is composed of [linked data](#linked-data) from different da
 - [Record Timestamp](schema/recordTimestamp/README.md): The timestamp of the current version of the ISCN record.
 - [Stakeholders](schema/stakeholders/README.md): List of StakeholderInfo contributed to this content.
 
-A full list of schema can be found at [schema](https://github.com/likecoin/iscn-specs/tree/master/schema), and ISCN record samples can be found in [here](https://github.com/likecoin/iscn-specs/tree/develop/sample).
+A full list of schema can be found at [schema](https://github.com/likecoin/iscn-specs/tree/master/schema), and ISCN record samples can be found in [here](https://github.com/likecoin/iscn-specs/tree/master/sample).
 
 ## Linked Data
 
@@ -44,7 +44,7 @@ Linked data is structured data that can be looked up via some methods, HTTP, RDF
 
 The complete ISCN registration is consist of a kernel [ISCN](schema/iscn.md) record to record the unique global identifier and maintain the stakeholders, and the content metadata by [stakeholders](schema/stakeholders/README.md), [contentFingerprints](schema/contentFingerprints/README.md) and [contentMetadata](schema/contentMetadata/README.md) corresponsibly. Other metadata can be added flexiblely through [JSON-LD](https://json-ld.org/) and [schema.org](https://schema.org/) standard. The basic architecture of an ISCN is shown below:
 
-![ISCN architecture](https://gateway.pinata.cloud/ipfs/QmT3gD8KvowzpaU2n4ppc7EHnJ7rgqkbRCqgKmdvYHSTiv)
+![ISCN architecture](./images/iscn_architecture.png)
 
 ## ISCN content registry
 
