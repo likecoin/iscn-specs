@@ -6,6 +6,12 @@ The [Entity](#) describes the necessary information of an entity, and all specif
 
 ```json
 {
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "iscn": "http://iscn.io/"
+  },
   "@id": "iscn:entity",
   "@type": "rdf:Property",
   "rdfs:comment": "Entity who should be cited and / or rewarded for the contribution on the content.",

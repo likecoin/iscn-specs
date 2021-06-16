@@ -6,6 +6,12 @@ The [Record Notes](#) is a summary on the current record version, similar to Git
 
 ```json
 {
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "iscn": "http://iscn.io/"
+  },
   "@id": "iscn:recordNotes",
   "@type": "rdf:Property",
   "rdfs:comment": "A summary on the current record version, similar to Git commit logs.",

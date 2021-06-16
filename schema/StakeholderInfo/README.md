@@ -6,6 +6,12 @@ The [Stakeholder](#) is the information about the stakeholder, including the [En
 
 ```json
 {
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "iscn": "http://iscn.io/"
+  },
   "@id": "iscn:StakeholderInfo",
   "@type": "rdfs:Class",
   "rdfs:comment": "One entry of the stakeholder list of the content, describing who or which content should be cited for the contribution to the content, and how much should the contribution be rewarded.",

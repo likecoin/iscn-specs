@@ -6,6 +6,12 @@ The [Content Metadata](#) contains the necessary metadata of digital content, in
 
 ```json
 {
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "iscn": "http://iscn.io/"
+  },
   "@id": "iscn:contentMetadata",
   "@type": "rdf:Property",
   "rdfs:comment": "The content metadata. For schema, http://schema.org/CreativeWork is recommended.",

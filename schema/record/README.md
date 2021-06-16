@@ -6,6 +6,12 @@ The [ISCN Record](#) is the core metadata that acts as a kernel of ISCN, and it 
 
 ```json
 {
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "iscn": "http://iscn.io/"
+  },
   "@id": "iscn:Record",
   "@type": "rdfs:Class",
   "rdfs:comment": "An ISCN record, recording the metadata of the content. The registry generating this record should create a unique identifier (the ISCN ID) for this record.",

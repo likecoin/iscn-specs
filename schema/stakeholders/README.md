@@ -6,6 +6,12 @@ The [Stakeholders](#) holds a list of [Stakeholder](../stakeholder/README.md) an
 
 ```json
 {
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "iscn": "http://iscn.io/"
+  },
   "@id": "iscn:stakeholders",
   "@type": "rdf:Property",
   "rdfs:comment": "Who or which content should be cited for the contribution to the content, and how much should the contribution be rewarded if someone wants to reward the content.",

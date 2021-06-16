@@ -6,6 +6,12 @@ The [Record Version](#) is the version of the ISCN record. It could be different
 
 ```json
 {
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "iscn": "http://iscn.io/"
+  },
   "@id": "iscn:recordVersion",
   "@type": "rdf:Property",
   "rdfs:comment": "The version of the ISCN record. It could be different from the content's version, as one may update only the content metadata or ISCN record fields without modifying the content itself.",

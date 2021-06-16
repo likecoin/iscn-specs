@@ -6,6 +6,12 @@ The [TimePeriod](#) is timestamp of the current version of the ISCN record, reco
 
 ```json
 {
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "iscn": "http://iscn.io/"
+  },
   "@id": "iscn:recordTimestamp",
   "@type": "edf:Property",
   "rdfs:comment": "The timestamp of the current version of the ISCN record, recorded by the registry, in ISO 8601 format.",
