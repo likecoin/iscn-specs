@@ -4,7 +4,7 @@ The [Footprint](#) describes contributions referring to other contents (e.g. cit
 
 ## Schema
 
-````json
+```json
 {
   "@context": {
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -22,13 +22,13 @@ The [Footprint](#) describes contributions referring to other contents (e.g. cit
     }
   ]
 }
-```                                                                  |
+```
 
 ## Sample
 
 ```json
 "https://en.wikipedia.org/wiki/Fibonacci_number"
-````
+```
 
 ```json
 "iscn://{registry_name}/{content_id}/{version}"
