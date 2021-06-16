@@ -48,7 +48,7 @@ The complete ISCN registration is consist of a kernel [ISCN](schema/iscn.md) rec
 
 ## ISCN content registry
 
-A registry is a service provider for the ISCN registration, and a registry should provide service to register a digital content with metadata that follows the ISCN specification and to query. If any entities want to become a registry for ISCN, they should reserve a code for their registry in [here](https://github.com/likecoin/iscn-registry-index).
+A registry is a service provider for the ISCN registration, and a registry should provide service to register a digital content with metadata that follows the ISCN specification and to query. A unique ISCN registry name should be used for each registry. If any entities want to become a registry for ISCN, they can check if their desired registry name is used or record a new name [here](https://github.com/likecoin/iscn-registry-index).
 
 ## ISCN Specification Guidelines
 
