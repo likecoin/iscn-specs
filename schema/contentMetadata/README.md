@@ -1,6 +1,6 @@
 # Content Metadata
 
-The [Content Metadata](#) contains the necessary metadata of digital content, including the fingerprint, the source location and the title & description of the digital content.
+The [Content Metadata](#) contains the necessary metadata of digital content, including the fingerprint, the source location and the name & description of the digital content.
 
 ## Schema
 
@@ -29,8 +29,8 @@ The [Content Metadata](#) contains the necessary metadata of digital content, in
 ```json
 {
   "@context": "http://schema.org/",
-  "@type": "CreativeWorks",
-  "title": "使用矩陣計算遞歸關係式",
+  "@type": "Article",
+  "name": "使用矩陣計算遞歸關係式",
   "description": "An article on computing recursive function with matrix multiplication.",
   "datePublished": "2019-04-19",
   "version": 1,
@@ -46,8 +46,8 @@ The [Content Metadata](#) contains the necessary metadata of digital content, in
 | Property      | Expected Type    | Description                                                                                                                                     |
 | ------------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | context       | URL              | The location of this schema: [http://schema.org/](http://schema.org/)                                                                           |
-| type          | String           | The type of digital content. e.g. [CreativeWorks](https://schema.org/CreativeWork) and its [subtypes](https://schema.org/CreativeWork#subtypes) |
-| title         | String           | A title or a name of the digital content, and it recommends to keep in short.                                                                   |
+| type          | String           | The type of digital content. e.g. [CreativeWork](https://schema.org/CreativeWork) and its [subtypes](https://schema.org/CreativeWork#subtypes) |
+| name         | String           | A name or a name of the digital content, and it recommends to keep in short.                                                                   |
 | description   | String           | A brief description to introduce the digital content.                                                                                           |
 | datePublished | String           | The timestamp of the creation or the modification of the ISCN record. It should be a human-readable DateTime and recommends to use ISO 8601.    |
 | version       | Number           | Self defined version number                                                                                                                     |

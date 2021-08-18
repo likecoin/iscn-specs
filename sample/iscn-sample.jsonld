@@ -47,8 +47,8 @@
     ],
     "contentMetadata": {
         "@context": "http://schema.org/",
-        "@type": "CreativeWorks",
-        "title": "使用矩陣計算遞歸關係式",
+        "@type": "Article",
+        "name": "使用矩陣計算遞歸關係式",
         "description": "An article on computing recursive function with matrix multiplication.",
         "datePublished": "2019-04-19",
         "version": 1,
