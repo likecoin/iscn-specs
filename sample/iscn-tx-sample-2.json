@@ -8,7 +8,14 @@
         {
             "entity": {
                 "@id": "cosmos1rclg677y2jqt8x4ylj0kjlqjjmnn6w6304rrtc",
-                "name": "Chung Wu"
+                "name": "Chung Wu",
+                "identifier": [
+                    {
+                    "@type": "PropertyValue",
+                    "propertyID": "Cosmos Wallet",
+                    "value": "cosmos1rclg677y2jqt8x4ylj0kjlqjjmnn6w6304rrtc"
+                    }
+                    ]
             },
             "rewardProportion": 95,
             "contributionType": "http://schema.org/author"
