@@ -7,8 +7,15 @@
     "stakeholders": [
         {
             "entity": {
-                "@id": "did:cosmos:5sy29r37gfxvxz21rh4r0ktpuc46pzjrmz29g45",
-                "name": "Chung Wu"
+                "@id": "cosmos1rclg677y2jqt8x4ylj0kjlqjjmnn6w6304rrtc",
+                "name": "Chung Wu",
+                "identifier": [
+                    {
+                    "@type": "PropertyValue",
+                    "propertyID": "Cosmos Wallet",
+                    "value": "cosmos1rclg677y2jqt8x4ylj0kjlqjjmnn6w6304rrtc"
+                    }
+                    ]
             },
             "rewardProportion": 95,
             "contributionType": "http://schema.org/author"
