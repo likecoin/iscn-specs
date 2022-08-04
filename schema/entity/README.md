@@ -42,16 +42,14 @@ Recommended
 ```json
 {
   "@id": "did:like:like1rclg677y2jqt8x4ylj0kjlqjjmnn6w63uflpgr",
-  "name": "Chung Wu",
-  "identifier": [{ "@type": "PropertyValue", "value": "did:like:like1rclg677y2jqt8x4ylj0kjlqjjmnn6w63uflpgr" }]
+  "name": "Chung Wu"
 }
 ```
 (No wallet address)
 ```json
 {
   "@id": "http://github.com/nnkken",
-  "name": "Chung Wu",
-  "identifier": [{ "@type": "PropertyValue", "value": "http://github.com/nnkken" }]
+  "name": "Chung Wu"
 }
 ```
 
@@ -59,6 +57,6 @@ Recommended
 
 | Property    | Expected Type | Description                                                                                                                   |
 | ----------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| id          | String \| URI | The `id` property represents any kind of identifier for everything, and it should represent in either as String or URI links.Recommended is a valid LikeCoin wallet address. Legacy is `did:` prefix. |
+| id          | String \| URI | The `id` property represents any kind of identifier for everything, and it should represent in either as String or URI links. A canonical wallet address is recommended when hosted on a blockchain. `did:(type)` prefix is also supported for legacy usage. |
 | name        | String        | The `name` shows the display name of the entity.                                                                              |
 | description | String        | The `description` shows a brief description of the entity.                                                                    |
