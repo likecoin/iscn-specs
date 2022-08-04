@@ -33,8 +33,9 @@ The [Entity](#) describes the necessary information of an entity, and all specif
 
 ```json
 {
-  "@id": "http://github.com/nnkken",
-  "name": "Chung Wu"
+  "@id": "like1rclg677y2jqt8x4ylj0kjlqjjmnn6w63uflpgr",
+  "name": "Chung Wu",
+  "identifier": [{ "@type": "PropertyValue", "propertyID": "LikeCoin Wallet", "value": "like1rclg677y2jqt8x4ylj0kjlqjjmnn6w63uflpgr" }]
 }
 ```
 
@@ -42,6 +43,6 @@ The [Entity](#) describes the necessary information of an entity, and all specif
 
 | Property    | Expected Type | Description                                                                                                                   |
 | ----------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| id          | String \| URI | The `id` property represents any kind of identifier for everything, and it should represent in either as String or URI links. |
+| id          | String \| URI | The `id` property represents any kind of identifier for everything, and it should represent in either as String or URI links.Recommended is a valid LikeCoin wallet address. Legacy is `did:` prefix. |
 | name        | String        | The `name` shows the display name of the entity.                                                                              |
 | description | String        | The `description` shows a brief description of the entity.                                                                    |
